@@ -16,7 +16,7 @@ from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-API_KEY       = os.environ.get("RENTCAST_API_KEY")
+API_KEY       = os.environ.get("RENT_CAST_API_KEY")
 API_URL       = "https://api.rentcast.io/v1/markets"
 HISTORY_RANGE = 120          # months of history to request (10 years)
 RATE_LIMIT_RPS = 0.5         # calls per second (2s between calls) - adjust per your plan

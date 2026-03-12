@@ -108,10 +108,7 @@ The pipeline covers **seven US metro areas** — Austin, Houston, Phoenix, Denve
 
    ```env
    RENT_CAST_API_KEY=<your-rentcast-api-key>
-   RENTCAST_API_KEY=<your-rentcast-api-key>
    ```
-
-   > `data_extraction.py` reads `RENT_CAST_API_KEY`; `market_data.py` reads `RENTCAST_API_KEY`.
 
 ---
 
